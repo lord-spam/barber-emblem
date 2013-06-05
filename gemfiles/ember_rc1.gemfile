@@ -4,5 +4,6 @@ source "https://rubygems.org"
 
 gem "therubyrhino", :platform=>:jruby
 gem "ember-source", "1.0.0.rc1.1"
+gem "barber", ">= 0.4.1"
 
 gemspec :path=>"../"

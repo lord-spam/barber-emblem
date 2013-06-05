@@ -4,4 +4,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'therubyrhino', :platform => :jruby
-gem 'barber', :git => 'git://github.com/tchak/barber.git'
+# gem 'barber', :git => 'git://github.com/tchak/barber.git'

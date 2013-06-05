@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/tchak/barber.git
+  revision: fe2c2debe4d0b00bddb4d5a6af0bba467a097c95
+  specs:
+    barber (0.4.2)
+      ember-source
+      execjs
+      handlebars-source (>= 1.0.0.rc.4)
+
 PATH
   remote: /mnt/newhome/workspace/barberem
   specs:
@@ -7,24 +16,20 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    appraisal (0.5.1)
+    appraisal (0.5.2)
       bundler
       rake
-    barber (0.4.1)
-      ember-source
-      execjs
-      handlebars-source
-    ember-source (1.0.0.rc1.1)
-      handlebars-source (= 1.0.0.rc3)
+    ember-source (1.0.0.rc4)
+      handlebars-source (= 1.0.0.rc4)
     emblem-source (0.2.7)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    handlebars-source (1.0.0.rc.3)
+    handlebars-source (1.0.0.rc4)
     metaclass (0.0.1)
-    mocha (0.13.2)
+    mocha (0.14.0)
       metaclass (~> 0.0.1)
-    multi_json (1.6.1)
-    rake (10.0.3)
+    multi_json (1.7.6)
+    rake (10.0.4)
     simplecov (0.7.1)
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
@@ -35,9 +40,9 @@ PLATFORMS
 
 DEPENDENCIES
   appraisal
-  barber (>= 0.4.1)
+  barber!
   barber-emblem!
-  ember-source (= 1.0.0.rc1.1)
+  ember-source (= 1.0.0.rc4)
   mocha
   rake
   simplecov
